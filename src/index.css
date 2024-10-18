@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+
+html {
+  font-family: "Oxygen", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(244, 226, 198);
+}
+
+.centered {
+  margin: 3rem auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  row-gap: 10px;
+  text-align: left;
+  font-weight: bolder;
+}
+
+input {
+  padding: 5px;
+}
+
+.bookshelfDiv {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formDiv {
+  width: 80%;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.bookCardsDiv {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-top: 20px;
+}
+
+.bookCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid white;
+  padding: 5px;
+  width: 40%;
+  height: auto;
+  margin: 15px 10px;
+  background-color: rgb(155, 155, 155);
+  color: black;
+}
