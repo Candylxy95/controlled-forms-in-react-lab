@@ -45,6 +45,7 @@ const Bookshelf = () => {
               backgroundColor: "plum",
               fontWeight: "500",
               borderStyle: "none",
+              borderRadius: "10px",
             }}
             onClick={handleSubmit}
           >

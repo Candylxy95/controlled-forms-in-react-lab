@@ -51,10 +51,11 @@ input {
 }
 
 .formDiv {
-  width: 80%;
+  width: 500px;
   border: 1px solid white;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   padding: 20px;
@@ -62,9 +63,10 @@ input {
 
 .bookCardsDiv {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
-  width: 90%;
+  width: 100%;
+  height: auto;
   margin-top: 20px;
 }
 
@@ -73,11 +75,9 @@ input {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  border: 1px solid white;
+  text-align: center;
   padding: 5px;
-  width: 40%;
-  height: auto;
+  width: 50%;
   margin: 15px 10px;
-  background-color: rgb(155, 155, 155);
   color: black;
 }
